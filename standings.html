@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Standing Clubs</title>
+    <meta name="description" content="Standing Clubs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#1565C0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <nav class="blue darken-3" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container"><strong>Club Info</strong></a>
+            <a href="./index.html" class="sidenav-trigger" data-target="nav-mobile">
+                <i class="material-icons">arrow_back</i>
+            </a>
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6" id="body-content">
+                <!-- Card berisi artikel akan disisipkan ke dalam sini. -->
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red" id="save">
+            <i class="large material-icons">save</i>
+        </a>
+    </div>
+    <div class="container" id="body-content"></div>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red saved" id="save">
+            <i class="large material-icons">save</i>
+        </a>
+    </div>
+
+    <div class="preloader-background">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://unpkg.com/snarkdown@1.0.2/dist/snarkdown.umd.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/load.js"></script>
+
+</body>
+
+</html>
+
+<!-- {"publicKey":"BKicR1tIghdV0kgrJbJXjOYjAaUhjfTMNxn_43HN4Wz-QIg3k3UnDW7EotrXceT-Yra1brbe9I_hOB6gWM79xsg","privateKey":"uXWmBQ6gXdxYL0YdrERl-KpT7MpXD3agBPN7zZLvpdw"} -->

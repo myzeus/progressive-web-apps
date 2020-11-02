@@ -1,0 +1,22 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "submission 2",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myzeus/pwa-project.git"
+  },
+  "author": "zarminta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myzeus/pwa-project/issues"
+  },
+  "homepage": "https://github.com/myzeus/pwa-project#readme",
+  "dependencies": {
+    "web-push": "^3.4.4"
+  }
+}
